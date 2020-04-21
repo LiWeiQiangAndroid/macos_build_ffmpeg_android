@@ -1,0 +1,14 @@
+prefix=/Users/pro/Desktop/ffmpeg-4.2.2/android/arm64-v8a
+exec_prefix=${prefix}
+libdir=/Users/pro/Desktop/ffmpeg-4.2.2/android/libs/arm64-v8a
+includedir=/Users/pro/Desktop/ffmpeg-4.2.2/android/arm64-v8a/include
+
+Name: libavfilter
+Description: FFmpeg audio/video filtering library
+Version: 7.57.100
+Requires: 
+Requires.private: libavutil >= 56.31.100
+Conflicts:
+Libs: -L${libdir}  -lavfilter 
+Libs.private: -pthread -lm
+Cflags: -I${includedir}
