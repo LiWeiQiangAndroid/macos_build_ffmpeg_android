@@ -1,15 +1,12 @@
-# macos_build_ffmpeg_android
 # Mac编译FFmpeg Android动态so库实践
 
 Mac OS  10.14.6
-
-Android
 
 NDK r20b (android-ndk-r20b-darwin-x86_64.zip)
 
 FFmpeg 4.2.2
 
-build_android.sh
+[build_android.sh](https://github.com/LiWeiQiangAndroid/macos_build_ffmpeg_android/blob/master/ffmpeg-4.2.2/build_android.sh)
 ```
 #!/bin/bash
 #你的NDK路径
@@ -121,7 +118,7 @@ build_android
 # OPTIMIZE_CFLAGS="-march=$CPU"
 # build_android
 ```
-config-env.sh
+[config-env.sh](https://github.com/LiWeiQiangAndroid/macos_build_ffmpeg_android/blob/master/ffmpeg-4.2.2/config-env.sh)
 ```
 #! /usr/bin/env bash
 # shell/config.sh
@@ -400,6 +397,8 @@ export COMMON_FF_CFG_FLAGS="$COMMON_FF_CFG_FLAGS --disable-linux-perf"
 export COMMON_FF_CFG_FLAGS="$COMMON_FF_CFG_FLAGS --disable-bzlib"
 ```
 # 一键输出所有so脚本
+
+[build_ffmpeg_all.sh](https://github.com/LiWeiQiangAndroid/macos_build_ffmpeg_android/blob/master/ffmpeg-4.2.2/build_ffmpeg_all.sh)
 ```
 #!/bin/bash
 
