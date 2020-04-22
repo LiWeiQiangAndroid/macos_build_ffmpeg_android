@@ -1,7 +1,7 @@
-prefix=/Users/pro/Desktop/ffmpeg-4.2.2/android/armeabi-v7a
+prefix=/Users/pro/Desktop/macos_build_ffmpeg_android/ffmpeg-4.2.2/android/armeabi-v7a
 exec_prefix=${prefix}
-libdir=/Users/pro/Desktop/ffmpeg-4.2.2/android/libs/armeabi-v7a
-includedir=/Users/pro/Desktop/ffmpeg-4.2.2/android/armeabi-v7a/include
+libdir=/Users/pro/Desktop/macos_build_ffmpeg_android/ffmpeg-4.2.2/android/libs/armeabi-v7a
+includedir=/Users/pro/Desktop/macos_build_ffmpeg_android/ffmpeg-4.2.2/android/armeabi-v7a/include
 
 Name: libavutil
 Description: FFmpeg utility library

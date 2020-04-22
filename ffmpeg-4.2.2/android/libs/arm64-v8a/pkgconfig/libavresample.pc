@@ -1,0 +1,14 @@
+prefix=/Users/pro/Desktop/macos_build_ffmpeg_android/ffmpeg-4.2.2/android/arm64-v8a
+exec_prefix=${prefix}
+libdir=/Users/pro/Desktop/macos_build_ffmpeg_android/ffmpeg-4.2.2/android/libs/arm64-v8a
+includedir=/Users/pro/Desktop/macos_build_ffmpeg_android/ffmpeg-4.2.2/android/arm64-v8a/include
+
+Name: libavresample
+Description: Libav audio resampling library
+Version: 4.0.0
+Requires: 
+Requires.private: libavutil >= 56.31.100
+Conflicts:
+Libs: -L${libdir}  -lavresample 
+Libs.private: -lm
+Cflags: -I${includedir}

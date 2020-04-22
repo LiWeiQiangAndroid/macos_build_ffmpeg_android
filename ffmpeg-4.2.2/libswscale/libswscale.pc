@@ -1,7 +1,7 @@
-prefix=/Users/pro/Desktop/ffmpeg-4.2.2/android/x86_64
+prefix=/Users/pro/Desktop/macos_build_ffmpeg_android/ffmpeg-4.2.2/android/x86_64
 exec_prefix=${prefix}
-libdir=/Users/pro/Desktop/ffmpeg-4.2.2/android/libs/x86_64
-includedir=/Users/pro/Desktop/ffmpeg-4.2.2/android/x86_64/include
+libdir=/Users/pro/Desktop/macos_build_ffmpeg_android/ffmpeg-4.2.2/android/libs/x86_64
+includedir=/Users/pro/Desktop/macos_build_ffmpeg_android/ffmpeg-4.2.2/android/x86_64/include
 
 Name: libswscale
 Description: FFmpeg image rescaling library

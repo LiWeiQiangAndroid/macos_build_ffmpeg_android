@@ -532,14 +532,14 @@
 @c @set config-gpl no
 @c @set config-nonfree no
 @c @set config-version3 no
-@c @set config-avdevice no
+@set config-avdevice yes
 @set config-avfilter yes
 @set config-swscale yes
 @c @set config-postproc no
 @set config-avformat yes
 @set config-avcodec yes
 @set config-swresample yes
-@c @set config-avresample no
+@set config-avresample yes
 @set config-avutil yes
 @c @set config-ffplay no
 @c @set config-ffprobe no
